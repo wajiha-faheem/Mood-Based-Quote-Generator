@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood-Based Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Select Your Mood 🎭</h1>
+    <div class="buttons">
+      <button onclick="showQuote('happy')">😊 Happy</button>
+      <button onclick="showQuote('sad')">😢 Sad</button>
+      <button onclick="showQuote('angry')">😠 Angry</button>
+      <button onclick="showQuote('chill')">😌 Chill</button>
+    </div>
+    <div class="quote-box">
+      <p id="quote">Click a mood to see your quote!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
